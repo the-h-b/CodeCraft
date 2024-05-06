@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 75px;
+    height: 100%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .sidebar button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+  }
+  
+  
+  .main-content {
+    margin-left: 90px;
+    padding: 20px;
+  }
+  
+  .profile-placeholder {
+    background-color: #444;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    color: #aaa;
+  }
+  .challenges-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .challenge-heading-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .heading-label {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .progress-heading {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .challenge-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5a1a1b8;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .challenge-title {
+    flex-grow: 2;
+  }
+  
+  .challenge-difficulty,
+  .challenge-test-cases {
+    flex-grow: 1;
+  }
+  
+  .status-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .status-button:hover {
+    opacity: 0.8;
+  }
+  
+  .status-button.attempt {
+    background-color: #4CAF50; 
+    color: rgb(237, 0, 0);
+  }
+  
+  .status-button.submitted,
+  .status-button.cleared,
+  .status-button.incorrect {
+    background-color: #f44336;
+    color: white;
+  }
+  button:hover {
+    background-color: #777;
+  }
