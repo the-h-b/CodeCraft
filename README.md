@@ -2,10 +2,7 @@
 
 1.1. PURPOSE: 
 
-	The goal of CodeCraft is to make learning to code easy and fun for everyone. It's an interactive website where users can drag and drop blocks of code to build programs. Whether the user is a beginner, a student, or someone teaching themselves, CodeCraft offers challenges and games to facilitate learning. The platform aims to make coding enjoyable and accessible to all, with a focus on ensuring the website works well, is safe, and is easy to use. 
-
-1.2. SCOPE: 
-
+	The goal of Code
 	The scope of the CodeCraft project involves creating a user-friendly web app for teaching coding to beginners, students, and self-learners. Users can drag and drop code blocks to build programs in various languages. Key features include user registration, coding challenges, leaderboards, and progress tracking. The project aims for fast, scalable, and secure performance while considering optional features like code review and social media integration. The final product will be an enjoyable and educational platform that motivates users in their coding journey. 
 
 2. USER TYPES AND THEIR FUNCTIONALITY:
